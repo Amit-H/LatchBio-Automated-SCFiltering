@@ -155,6 +155,7 @@ def scanpyXdropkick(run_name: str, data_dir: LatchDir) -> LatchFile:
                 display_name: Run Name
                 
     """
+    """
     from latch.resources.launch_plan import LaunchPlan
 
     LaunchPlan(
@@ -162,5 +163,6 @@ def scanpyXdropkick(run_name: str, data_dir: LatchDir) -> LatchFile:
     "hg19-PBMCs",
     {"run_name": "human_PBMCs", "c": LatchFile("s3://latch-public/test-data/hg19")}
     )
+    """
 
     return run_scanpy_analysis(data_dir=data_dir, run_name = run_name)
