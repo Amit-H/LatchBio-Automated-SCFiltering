@@ -13,6 +13,7 @@ A directory containing 10x Single Cell data, which should contain:
 1. barcodes.tsv
 2. genes.tsv
 3. matrix.mtx
+
 Please also include a name for the run - e.g Human_PBMCs, Mouse_TH17
 
 ### Output
