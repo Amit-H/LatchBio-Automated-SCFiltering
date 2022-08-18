@@ -137,7 +137,7 @@ def scanpyXdropkick(run_name: str, data_dir: LatchDir) -> LatchFile:
             name: Amit Halkhoree
             email: amithalkhoree@gmail.com
             github: https://github.com/Amit-H
-        repository:
+        repository: https://github.com/Amit-H/LatchBio-Automated-SCFiltering
         license:
             id: MIT
 
